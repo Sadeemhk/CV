@@ -159,6 +159,10 @@ body {
   .section-container {
     grid-template-columns: 1fr; /* Single column layout on smaller screens */
   }
+  .logo{
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -174,11 +178,16 @@ body {
     margin-right: 40px; /* Adjust margin for smaller screens */
     margin-left: 20px; /* Adjust margin for smaller screens */
   }
+  .logo{
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   .home-content h1 {
     font-size: 36px; /* Adjust font size for smaller screens */
+    
   }
 
   .home-content h3 {
@@ -187,5 +196,9 @@ body {
 
   .home-content p {
     font-size: 18px; /* Adjust font size for smaller screens */
+  }
+  .logo{
+    max-width: 100%;
+    height: auto;
   }
 }
