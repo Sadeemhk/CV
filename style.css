@@ -252,38 +252,3 @@ ul{
   padding-top: 30px;
   float: left;
 }
-/* Media Queries */
-@media only screen and (max-width: 768px) {
-  .section-container {
-    grid-template-columns: 1fr; /* Single column layout on smaller screens */
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .header {
-    padding: 20px 5%; /* Adjust padding for smaller screens */
-  }
-
-  .navbar a {
-    margin-left: 15px; /* Adjust margin for smaller screens */
-  }
-
-  .Social-media a {
-    margin-right: 40px; /* Adjust margin for smaller screens */
-    margin-left: 20px; /* Adjust margin for smaller screens */
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .home-content h1 {
-    font-size: 36px; /* Adjust font size for smaller screens */
-  }
-
-  .home-content h3 {
-    font-size: 24px; /* Adjust font size for smaller screens */
-  }
-
-  .home-content p {
-    font-size: 18px; /* Adjust font size for smaller screens */
-  }
-}
